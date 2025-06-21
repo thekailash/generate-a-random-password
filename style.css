@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eaf6f6;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 45px 35px;
+  border-radius: 20px;
+  backdrop-filter: blur(18px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  width: 90%;
+  max-width: 440px;
+  text-align: center;
+  position: relative;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #00f7ff;
+  letter-spacing: 1px;
+}
+
+.output-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 100%;
+  padding: 16px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255,255,255,0.1);
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: 'Poppins', monospace;
+  font-weight: 300;
+}
+
+.copy-btn {
+  position: absolute;
+  right: 12px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #0ff;
+  transition: transform 0.2s;
+}
+
+.copy-btn:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
+
+button {
+  margin-top: 28px;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+  background: linear-gradient(45deg, #06beb6, #48b1bf);
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,255,255,0.4);
+  transition: 0.3s ease;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0,255,255,0.6);
+}
